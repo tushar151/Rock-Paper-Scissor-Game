@@ -40,6 +40,9 @@ Peace sign (index and middle fingers up) for Scissors
 The main game loop captures video from the webcam, detects hand gestures, and overlays the appropriate images to display the game state. The game logic determines the winner based on the player's and AI's moves and updates the score accordingly.
 
 **Main Components**
+
 Hand Detection: Using the CvZone HandDetector to detect and track hand gestures.
+
 Game Logic: Randomly generates AI moves and compares them to the player's moves to determine the winner.
+
 Display: Uses OpenCV to display the game interface, including the countdown, player and AI moves, and the score.
